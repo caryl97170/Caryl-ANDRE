@@ -1,12 +1,13 @@
--- Contrôle de cohérence télétravail / restauration — données fictives
--- Tables : declarations_teletravail(Matricule, Service, Date_teletravail)
---          passages_cantine(Matricule, Date_passage, Heure_passage)
+-- Contrôle trimestriel de cohérence télétravail / restauration — données fictives
+-- Tables consolidées sur le trimestre (fichiers mensuels d'avril, mai et juin réunis) :
+--   declarations_teletravail(Matricule, Service, Date_teletravail)
+--   passages_cantine(Matricule, Date_passage, Heure_entree, Heure_sortie)
 
--- Jours déclarés en télétravail avec un passage à la cantine le même jour
+-- Détail : jours déclarés en télétravail avec un passage à la cantine le même jour
 SELECT t.Matricule,
        t.Service,
        t.Date_teletravail,
-       MIN(c.Heure_passage) AS Heure_passage
+       MIN(c.Heure_entree) AS Heure_entree
 FROM declarations_teletravail AS t
 JOIN passages_cantine AS c
   ON c.Matricule = t.Matricule
