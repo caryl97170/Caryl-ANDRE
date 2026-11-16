@@ -117,3 +117,5 @@
 .az-steps .media-tile h4{font:700 15px Manrope;color:#f4f7fb}
 .az-steps .media-tile p{font-size:13px;line-height:1.6;color:#b1c0d0}
 @media (max-width:640px){.az-steps{grid-template-columns:1fr}}
+.az-steps.az-steps-3{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:16px}
+@media (max-width:640px){.az-steps.az-steps-3{grid-template-columns:1fr}}
