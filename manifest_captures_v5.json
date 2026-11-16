@@ -1,0 +1,122 @@
+[
+  {
+    "project": "azmut-bi",
+    "source_filename": "image(20261116-121344).png",
+    "source_sha256": "9afe80ed5ad96a6df9721e4e71fb952bfb4c530a2cd82b50eb17d8e2ab67eb67",
+    "crop_box_xyxy": [
+      0,
+      102,
+      1909,
+      1067
+    ],
+    "output_path": "media/azmut-bi/01-demonstration.png",
+    "output_sha256": "fecd140429287f3d6aa652c0717d70185cfecacf37af009ac9df51e3df636192",
+    "caption": "Démonstration — données fictives",
+    "mode": "exact pixel crop; PNG lossless"
+  },
+  {
+    "project": "azmut-bi",
+    "source_filename": "image(20261116-121438).png",
+    "source_sha256": "82d0bddd698346c617841e9168dc55e3a2d5fb6a8f2b22c0672e9be31222f1cb",
+    "crop_box_xyxy": [
+      0,
+      102,
+      1909,
+      1067
+    ],
+    "output_path": "media/azmut-bi/02-projets.png",
+    "output_sha256": "17b0cdc54a8c91c0c7b6b03ea84bd741c96a8171e8209b56d04793f95d93d788",
+    "caption": "Organisation des projets",
+    "mode": "exact pixel crop; PNG lossless"
+  },
+  {
+    "project": "azmut-bi",
+    "source_filename": "image(20261116-121515).png",
+    "source_sha256": "e77d10113a16cd72658ab9012a65528caa47440140a27dc022e1035982bfbcbb",
+    "crop_box_xyxy": [
+      0,
+      102,
+      1909,
+      1067
+    ],
+    "output_path": "media/azmut-bi/03-activite.png",
+    "output_sha256": "4921be635f7c42d148730f72f117f77d0b81a21bf43321a028845c0067df5f2f",
+    "caption": "Accueil et activité récente",
+    "mode": "exact pixel crop; PNG lossless"
+  },
+  {
+    "project": "azmut-bi",
+    "source_filename": "image(20261116-122250).png",
+    "source_sha256": "09f8bdddde659e760bef1479472830ffb644884aaef1ecd023510da1a89cb8ef",
+    "crop_box_xyxy": [
+      0,
+      102,
+      1909,
+      1067
+    ],
+    "output_path": "media/azmut-bi/04-import.png",
+    "output_sha256": "81dbfb14e250cf25768c4f4c980a0fb44a6676f02e77b0eaec7aef8cd789ad76",
+    "caption": "Parcours d’importation Excel / CSV",
+    "mode": "exact pixel crop; PNG lossless"
+  },
+  {
+    "project": "yzocel-stage",
+    "source_filename": "image(20261116-121558).png",
+    "source_sha256": "dea86d7fed21bfa95e623ffa22519b52c31d723fa73f895cf3c5db3ba0a6a8d9",
+    "crop_box_xyxy": [
+      447,
+      103,
+      1210,
+      760
+    ],
+    "output_path": "media/yzocel-stage/01-roles.png",
+    "output_sha256": "905768e05a8069587f1720e516ebf84b2d6e3a8b5c3210ebb603b54903cf0a39",
+    "caption": "Choix du rôle",
+    "mode": "exact pixel crop; PNG lossless"
+  },
+  {
+    "project": "yzocel-stage",
+    "source_filename": "image(20261116-122110).png",
+    "source_sha256": "82134318b2250de9725baafda55685bcdf7a1586fb92887f50a4022e870adf88",
+    "crop_box_xyxy": [
+      252,
+      103,
+      1385,
+      1065
+    ],
+    "output_path": "media/yzocel-stage/02-instruments.png",
+    "output_sha256": "86cabdad94b24cda88608c5e0ced46d111f5bab9175cd4cb87d2e3686c4f20c1",
+    "caption": "Instruments et retours casque",
+    "mode": "exact pixel crop; PNG lossless"
+  },
+  {
+    "project": "yzocel-stage",
+    "source_filename": "image(20261116-122127).png",
+    "source_sha256": "390aaba7e03f85a43f4d6a2684c6007cadd8bdb729e0e138f0eeab552186b226",
+    "crop_box_xyxy": [
+      249,
+      92,
+      1386,
+      1065
+    ],
+    "output_path": "media/yzocel-stage/03-demandes.png",
+    "output_sha256": "4a3e3048afc4cd004348c057876badb5a682d086e807437894b7edfdb814a8b9",
+    "caption": "Demandes de la scène",
+    "mode": "exact pixel crop; PNG lossless"
+  },
+  {
+    "project": "yzocel-stage",
+    "source_filename": "image(20261116-122158).png",
+    "source_sha256": "89d76fe0c84462d5bfd53445eba214511f5003645a46381eaf2793cfbc17878e",
+    "crop_box_xyxy": [
+      254,
+      102,
+      1391,
+      1065
+    ],
+    "output_path": "media/yzocel-stage/04-regie.png",
+    "output_sha256": "f9f09c9110ac0fb5c9c9ac7ad577d0649d8f15b5e9333cd00cde46494c01c142",
+    "caption": "Gestion des demandes en régie",
+    "mode": "exact pixel crop; PNG lossless"
+  }
+]
