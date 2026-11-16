@@ -119,3 +119,20 @@
 @media (max-width:640px){.az-steps{grid-template-columns:1fr}}
 .az-steps.az-steps-3{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:16px}
 @media (max-width:640px){.az-steps.az-steps-3{grid-template-columns:1fr}}
+
+/* V10 — projet contrôle télétravail */
+.detail-content pre{background:#0d1824;border:1px solid #273b51;border-radius:12px;padding:16px 18px;overflow-x:auto;margin:16px 0}
+.detail-content code{font:13px/1.7 "SFMono-Regular",Consolas,monospace;color:#cfe3f7}
+.download-list{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.download-list .btn{font-size:13px;padding:10px 16px}
+.project-card.wide .project-art-photo img{object-fit:cover;object-position:center}
+.project-card.case-card{grid-column:span 12}
+.project-card.case-card .project-art{height:auto;aspect-ratio:16/9;max-height:460px;background:#080d13}
+.project-card.case-card .project-art img{object-fit:contain!important;width:100%;height:100%}
+.detail-cover .detail-photo-schema{object-fit:contain!important;width:100%;height:100%;background:#080d13}
+.detail-grid>*,.detail-content{min-width:0}
+.detail-content pre{max-width:100%;white-space:pre-wrap;word-break:break-word}
+.project-card.case-card .project-art{aspect-ratio:auto;height:460px;max-height:none}
+@media (max-width:760px){.project-card.case-card .project-art{height:auto;aspect-ratio:16/9}}
+.project-card.case-card .project-art{height:auto;aspect-ratio:1440/570;max-height:none}
+.detail-cover:has(.detail-photo-schema){height:auto;aspect-ratio:1440/570}
