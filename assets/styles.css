@@ -106,3 +106,8 @@
 .video-tile h3{margin:0 0 6px;font-size:17px}
 .video-tile p{margin:0;font-size:13px;color:#9eaec0;line-height:1.5}
 @media (max-width:640px){.video-grid{grid-template-columns:1fr}.video-tile video{max-height:78vh}}
+
+/* V9 — centres d’intérêt */
+.interest-grid .project-card.interest-card{grid-column:span 4}
+.interest-grid .project-card.interest-card .project-art{height:220px}
+@media (max-width:980px){.interest-grid .project-card.interest-card{grid-column:span 6}}
